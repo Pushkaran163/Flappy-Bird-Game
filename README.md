@@ -1,18 +1,28 @@
+# Flappy Bird Game
+
+Flappy Bird is a simple Java-based game where the player controls a bird, helping it navigate through obstacles. The bird ascends when the player taps the spacebar and descends otherwise. The goal is to avoid hurdles and achieve the highest score possible.
+
+## Features
+- Simple and addictive gameplay
+- Score tracking
+- Collision detection
+- Restart functionality
+
+## Technologies Used
+- Java
+- Java Swing
+- Java AWT
+- Object-Oriented Programming (OOP) principles
+
 ## Getting Started
+Follow these instructions to set up and run the game on your local machine.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### Prerequisites
+- Java Development Kit (JDK) 8 or higher
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## How to Play
+- Press the *spacebar* to make the bird ascend.
+- The bird will descend automatically due to gravity.
+- Avoid colliding with the hurdles.
+- The game ends if the bird collides with any hurdle or goes out of bounds.
+- Press *Enter* to restart the game after a game over.
